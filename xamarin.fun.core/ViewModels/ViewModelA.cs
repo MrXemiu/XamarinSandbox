@@ -38,13 +38,13 @@ namespace xamarin.fun.core.ViewModels
         public MvxCommand GoToBCommand => new MvxCommand(async () =>
         {
             _navigatedAwayFromCount++;
-            NavigatedAwayFrom = $"Navigated to ViewModelB {_navigatedAwayFromCount} times";
+            NavigatedAwayFrom = $"Navigated to View B {_navigatedAwayFromCount} times";
 
             var result = await _navigationService.Navigate<ViewModelB, Tuple<string, int>, string>(new Tuple<string, int>(Title, _navigatedAwayFromCount));
 
             _returnedFromCount++;
 
-            ReturnedFrom = $"Returned from ViewModelB {_returnedFromCount} times";
+            ReturnedFrom = $"Returned from View B {_returnedFromCount} times";
         });
 
 
@@ -53,8 +53,8 @@ namespace xamarin.fun.core.ViewModels
         {
             _navigationService = navigationService;
 
-            NavigatedAwayFrom = $"Navigated to ViewModelB {_navigatedAwayFromCount} times";
-            ReturnedFrom = $"Returned from ViewModelB {_returnedFromCount} times";
+            NavigatedAwayFrom = $"Navigated to View B {_navigatedAwayFromCount} times";
+            ReturnedFrom = $"Returned from View B {_returnedFromCount} times";
         }
 
 

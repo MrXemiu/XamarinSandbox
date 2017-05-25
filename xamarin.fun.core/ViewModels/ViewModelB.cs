@@ -48,13 +48,13 @@ namespace xamarin.fun.core.ViewModels
         {
             _navigatedAwayFromCount++;
 
-            NavigatedAwayFrom = $"Navigated to ViewModelC {_navigatedAwayFromCount} times";
+            NavigatedAwayFrom = $"Navigated to View C {_navigatedAwayFromCount} times";
 
             var result = await _navigationService.Navigate<ViewModelC, Tuple<string, int>, string>(new Tuple<string, int>(Title, _navigatedAwayFromCount));
 
             _returnedFromCount++;
 
-            ReturnedFrom = $"Returned from ViewModelC {_returnedFromCount} times";
+            ReturnedFrom = $"Returned from View C {_returnedFromCount} times";
         });
 
 
@@ -70,9 +70,9 @@ namespace xamarin.fun.core.ViewModels
         {
             _navigationService = navigationService;
 
-            NavigatedAwayFrom = $"Navigated to ViewModelC {_navigatedAwayFromCount} times";
+            NavigatedAwayFrom = $"Navigated to View C {_navigatedAwayFromCount} times";
 
-            ReturnedFrom = $"Returned from ViewModelC {_returnedFromCount} times";
+            ReturnedFrom = $"Returned from View C {_returnedFromCount} times";
         }
 
 
