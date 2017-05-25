@@ -1,0 +1,5 @@
+﻿<resources>
+
+  <!-- Base application theme. -->
+  <style name="Theme.Xamarin.Fun" parent="Theme.AppCompat.NoActionBar"></style>
+</resources>
