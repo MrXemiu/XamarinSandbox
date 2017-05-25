@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxTest.Droid", "MvxTest.Droid\MvxTest.Droid.csproj", "{ACCBC03F-CD96-40F3-B3E8-E3C4494C3F9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxTest.Core", "MvxTest.Core\MvxTest.Core.csproj", "{6CBB42E1-E303-4B3D-93CE-C37C925C3AD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{ACCBC03F-CD96-40F3-B3E8-E3C4494C3F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACCBC03F-CD96-40F3-B3E8-E3C4494C3F9D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ACCBC03F-CD96-40F3-B3E8-E3C4494C3F9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6CBB42E1-E303-4B3D-93CE-C37C925C3AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBB42E1-E303-4B3D-93CE-C37C925C3AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBB42E1-E303-4B3D-93CE-C37C925C3AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBB42E1-E303-4B3D-93CE-C37C925C3AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
